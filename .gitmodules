@@ -5,3 +5,4 @@
 [submodule "tests"]
 	path = tests
 	url = https://github.com/libcgroup/libcgroup-tests.git
+    branch = "release-2.0"
