@@ -28,6 +28,7 @@ autoreconf -fi
 rm -fr autom4te.cache
 
 CFLAGS="$CFLAGS -g -O0" ./configure --sysconfdir=/etc --localstatedir=/var \
-	--enable-opaque-hierarchy="name=systemd"
+	--enable-opaque-hierarchy="name=systemd" \
+    --disable-pam
 
 make clean
